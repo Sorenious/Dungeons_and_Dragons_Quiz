@@ -1,0 +1,569 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>What D&amp;D Character Are You?</title>
+
+<script src="quiz.js"></script>
+
+
+</head><body background="bk299.gif" bgcolor="#885522" link="#ff5555" text="#ffffff" vlink="#ee6666">
+
+<center><h2>What D&amp;D Character Are You?</h2><i>(version 4.10)</i><br><br>
+
+<table border="0" cellpadding="3" cellspacing="0" width="750"><tbody><tr><td>
+
+So, first off, this is not my work. This is a test I found years and years ago. I loved it so much I saved it to my computer for personal use. Doing so was very fortuitous as the original has long since been lost. If it moved, I was never able to find it. As such, I unfortunately cannot give credit to the original owner.
+(Just a heads up, with how old this page is, most, if not all, of the links no longer go where they're intended to go. Seeing as this is not my code, I didn't feel like sifting through pages of text to find and remove said links.)<br><br>
+Updates:<br><ul><li>(10/15/2017) I moved the javascript into its own file. If that screwed up the mechanics at all, you can find the page in its original format here: <a href="D&D.htm">Dungeons & Dragons Quiz</a></li>
+<li><b>v4.10</b> - (06/01/2002) Another small update.  Settled in for the summer, so I should have time to update
+if necessary, although the survey is fast approaching the stage where I'd call it "complete".  I added five more
+questions, some lifted from the <a href="http://neppyman.irulethe.net/dndwho/orig.html" target="_blank">
+original survey</a>, because that seems to be popular.  A word on that.. I've been told many times that the original
+survey produces more accurate results.  The reason for this is that the questions are very blunt and direct, and
+if you know what you want to become, it's easy to choose answers to get there.  This version is a bit more cryptic,
+so if you want a bit of mystery, stick with this.  <b>PLEASE BE AWARE:</b> As this survey is hosted on my own
+webspace on my school's survey, and since I'm planning to graduate at the end of the summer, the survey will be
+<b>MOVING</b>.  Where exactly has yet to be determined, but I can only keep a forwarding page up for so long.  Stay
+tuned; it will be announced as soon as I have space set up.<br>
+</li><li><b>v4.00</b> - (04/30/2002) Yeah, yeah, I know I've been lazy lately, but this one's worth it for everyone
+who's been complaining that the test neglected to include Monks, Gnomes, and Half-Orcs.  No longer; they're all
+in, complete with some gnomish deities to go with them.  I did <i>not</i> include any orcish deities, primarily
+because they're almost completely evil, and a half-orc player character (at least, a good one) would be more likely
+to lean towards the human side of their nature.  If you want orcish deities to add to your ravenously evil 
+character, look them up yourself.  In the meantime, enjoy the updated survey.  Also, in order to help differentiate
+the additions, a couple of new answers to questions have been added.<br>
+</li><li><b>v3.01</b> - (03/14/2002) Made a few minor cosmetic tweaks to the page over the last week or so - thanks to
+everyone who sent in bug reports and such.  Also, I was informed by a Forgetten Realms-inclined friend of mine that
+the stereotypical Lawful Good dwarven deity would be Moradin, so the survey has been changed updated accordingly.
+Thanks for Arn!e for helping me out with that.  Also, for those who are interested in Legend of the Five Rings (L5R),
+my friend Johnny put up <a href="http://members.aol.com/gaijintrader/faction.html" target="_mt">his own survey</a>,
+based on my code (I helped him a bit, but he's pretty talented to begin with... *grins*).  If you're interested in
+L5R, <a href="http://members.aol.com/gaijintrader/faction.html" target="_mt">head on over</a> and take his survey.<br>
+</li><li><b>v3.00</b> - (03/03/2002) Added Forgotten Realms deities to the list of results.  Lots of them - 32, to be
+specific, and the survey will match your character up with one based on alignment (primarily), and then race and
+class.  The descriptions are still being finalized (expect a revision later this week), and anyone who wants to
+offer some assistance should <a href="mailto:neppyman@yahoo.com">drop me a line</a>.  Also, anyone with artistic
+talent who would be willing to help me out by drawing symbol pictures for all the deities (40x40 pixels would
+be quite sufficient) should <a href="mailto:neppyman@yahoo.com">let me know</a>.  To take a look at the list of
+deities that I'm using, click <a href="http://neppyman.irulethe.net/dndwho/char-possible.html" target="_mt">here</a>.<br>
+</li><li><b>v2.22</b> - (02/26/2002) Added one question and more answers to a few questions.  Also, redid the browser
+recommendations into a neat table.  Added a link showing all possible results.  I recommend <a href="http://www.mozilla.org/" target="_mt">Mozilla</a> as the browser of choice to use for this survey; of
+all the browsers I've tested, on all the platforms, it yields the best results.<br>
+</li><li><b>v2.21</b> - (02/21/2002) Full HTML 4.01 Transitional compliance achieved!  If that doesn't fix problems
+with pesky browsers, nothing will.  Thanks to <a href="http://www.figment.org/" target="_mt">Figment</a> for the suggestions that let me pull this off.<br>
+</li><li><b>v2.20</b> - (02/21/2002) As suggested, I took the rather naive tie-breaking 
+algorithm for breaking ties with alignment, and made it much more robust.  The survey is configured to 
+generate specific (e.g. Lawful Neutral) alignments associated with each question.  If that produces a single 
+highest alignment, that's what you get.  If not, it sums up law vs. chaos and good vs. evil, and resolves 
+ties in favor of neutrality.  From my own test runs, this produces pretty good (and accurate) results, but 
+if you feel otherwise, feel free to <a href="mailto:neppyman@yahoo.com">tell me what you think</a>.<br>
+</li><li><b>v2.10</b> - (02/19/2002) Fixed minor code bug that was improperly handling ties in primary classes.
+Thanks to <a href="mailto:michael@whiterose.org">Michael Croft</a> for helping me with this!<br>
+</li><li><b>v2.01</b> - (02/19/2002) Fixed JavaScript bug that was preventing MacOS users (and others) from viewing 
+the page or taking the test.<br>
+</li></ul><br>
+
+This survey will attempt to, in a few short questions, determine your race, alignment, and primary/secondary
+class, as a D&amp;D character.  We make no guarantees for accuracy, and this is simply for fun, so don't complain if
+you feel insulted or upset by some of the things you see.  With that in mind, please take the time to read
+the questions completely, as some of the answers are surprising.  Also, don't try to guess the system used
+in determining these things (although you can read the source if you'd like, once you're done), because
+that would really defeat the purpose.  And yes, there's some inside jokes here.<br><br>
+
+<b>By Request:</b> If you would like to see a list of all possible results, click <a href="http://neppyman.irulethe.net/dndwho/char-possible.html" target="_mt">here</a> to get that.<br><br>
+
+<b>PLEASE NOTE:</b> This test requires support for both JavaScript and pop-up windows.  If your browser 
+doesn't support both of them, you're out of luck.  Unfortunately, there's no other way to do the 
+survey - there's over 2000 possible results, and I have to generate them on the fly.  And since U of I 
+doesn't let us run CGI scripts on their server, I'm stuck with JavaScript to do the generation.<br><br>
+
+<center>
+<table border="3" width="500">
+
+<tbody><tr>
+<td><b>Platform</b></td>
+<td><b>Recommended Browser(s)</b></td>
+</tr>
+
+<tr>
+<td>Windows 9x/ME</td>
+<td>Mozilla 0.9.8+, Netscape 4.79+, Netscape 6.2+, Internet Explorer 5.0+</td>
+</tr>
+
+<tr>
+<td>Windows NT/2k/XP</td>
+<td>Mozilla 0.9.8+, Netscape 4.79+, Netscape 6.2+, Internet Explorer 5.0+</td>
+</tr>
+
+<tr>
+<td>Mac OS X</td>
+<td>Mozilla 0.9.7+, Netscape 6.2+, OmniWeb 4.2+</td>
+</tr>
+
+<tr>
+<td>Mac OS (versions prior to X)</td>
+<td>Mozilla 0.9.7+, Netscape 6.2+, Internet Explorer 5.0+</td>
+</tr>
+
+<tr>
+<td>Linux</td>
+<td>Mozilla 0.9.8+, Netscape 4.79+</td>
+</tr>
+
+<tr>
+<td>SunOS 5.7+</td>
+<td>Netscape 4.76+</td>
+</tr>
+
+<tr>
+<td>Solaris 8+</td>
+<td>Opera 5.0+</td>
+</tr>
+
+</tbody></table><br>
+<i>If a browser is "recommended", that means that I have either successfully tested it myself, or have had
+several reported successes with that browser.  <b>Personally, I recommend <a href="http://www.mozilla.org/" target="_mt">Mozilla</a></b>, which is available for almost any platform, and seems to work for every one that
+I've tested it on.  I no longer need browser success reports, but thanks to everyone who sent them in!</i><br><br>
+</center>
+
+<form name="survey" action="">
+
+<hr><p>
+
+<a class="question">1. Which is the MOST important of the following concepts?</a>
+<br><br>
+<input name="q1" value="1" type="radio"> Love<br>
+<input name="q1" value="2" type="radio"> Honor<br>
+<input name="q1" value="3" type="radio"> Fairness<br>
+<input name="q1" value="4" type="radio"> Pride<br>
+<input name="q1" value="5" type="radio"> Power<br>
+<input name="q1" value="6" type="radio"> Money<br>
+
+</p><p></p><hr><p>
+
+<a class="question">2. Which is the SECOND MOST important of the following concepts?</a>
+<br><br>
+<input name="q2" value="1" type="radio"> Love<br>
+<input name="q2" value="2" type="radio"> Honor<br>
+<input name="q2" value="3" type="radio"> Fairness<br>
+<input name="q2" value="4" type="radio"> Pride<br>
+<input name="q2" value="5" type="radio"> Power<br>
+<input name="q2" value="6" type="radio"> Money<br>
+
+</p><p></p><hr><p>
+
+<a class="question">3. Which is the LEAST important of the following concepts?</a>
+<br><br>
+<input name="q3" value="1" type="radio"> Love<br>
+<input name="q3" value="2" type="radio"> Honor<br>
+<input name="q3" value="3" type="radio"> Fairness<br>
+<input name="q3" value="4" type="radio"> Pride<br>
+<input name="q3" value="5" type="radio"> Power<br>
+<input name="q3" value="6" type="radio"> Money<br>
+
+</p><p></p><hr><p>
+
+<a class="question">4. You're having guests over for a party.  Which of the following is your FIRST priority?</a>
+<br><br>
+<input name="q4" value="1" type="radio"> Food and drink<br>
+<input name="q4" value="2" type="radio"> Decorations<br>
+<input name="q4" value="3" type="radio"> Entertainment<br>
+<input name="q4" value="4" type="radio"> Presents<br>
+
+</p><p></p><hr><p>
+
+<a class="question">5. You're having guests over for a party.  Which of the following is your SECOND priority?</a>
+<br><br>
+<input name="q5" value="1" type="radio"> Food and Drink<br>
+<input name="q5" value="2" type="radio"> Decorations<br>
+<input name="q5" value="3" type="radio"> Entertainment<br>
+<input name="q5" value="4" type="radio"> Presents<br>
+
+</p><p></p><hr><p>
+
+<a class="question">6. Which of the following is the MOST admirable life goal?</a>
+<br><br>
+<input name="q6" value="1" type="radio"> Knowledge and Wisdom<br>
+<input name="q6" value="2" type="radio"> Money<br>
+<input name="q6" value="3" type="radio"> Pleasure or Happiness<br>
+<input name="q6" value="4" type="radio"> Physical Strength<br>
+
+</p><p></p><hr><p>
+
+<a class="question">7. Which of the following is the LEAST admirable life goal?</a>
+<br><br>
+<input name="q7" value="1" type="radio"> Knowledge and Wisdom<br>
+<input name="q7" value="2" type="radio"> Money<br>
+<input name="q7" value="3" type="radio"> Pleasure or Happiness<br>
+<input name="q7" value="4" type="radio"> Physical Strength<br>
+
+</p><p></p><hr><p>
+
+<a class="question">8. You are given a gift of several million gold coins.  What do you do with them?</a>
+<br><br>
+<input name="q8" value="1" type="radio"> Shopping spree!<br>
+<input name="q8" value="2" type="radio"> Donate them to a temple.<br>
+<input name="q8" value="3" type="radio"> Invest in real estate or financial
+institutions.<br>
+<input name="q8" value="4" type="radio"> Open a business.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">9. Where would you MOST like to live?</a>
+<br><br>
+<input name="q9" value="1" type="radio"> The Big City, full of people, shops, bars, and all that urban goodness.<br>
+<input name="q9" value="2" type="radio"> Mountain Halls, deep, cavernous, and majestic.<br>
+<input name="q9" value="3" type="radio"> A Small Village, with a few people and a handful of busniesses.<br>
+<input name="q9" value="4" type="radio"> The City in the Trees, with wooden bridges connecting massive, ancient trees and the houses built into them.<br>
+<input name="q9" value="5" type="radio"> The Middle of Nowhere, all by yourself.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">10. Where would you LEAST like to live?</a> <br><br>
+<input name="q10" value="1" type="radio"> The Big City, full of people, shops, bars, and all that urban goodness.<br>
+<input name="q10" value="2" type="radio"> Mountain Halls, deep, cavernous, and majestic.<br>
+<input name="q10" value="3" type="radio"> A Small Village, with a few people and a handful of busniesses.<br>
+<input name="q10" value="4" type="radio"> The City in the Trees, with wooden bridges connecting massive, ancient trees and the houses built into them.<br>
+<input name="q10" value="5" type="radio"> The Middle of Nowhere, all by yourself.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">11. Somebody plays a joke on you.  What's your first reaction?</a>
+<br><br>
+<input name="q11" value="1" type="radio"> Laugh.  Fun is fun, after all.<br>
+<input name="q11" value="2" type="radio"> Ignore them.  Pranking is beneath me.<br>
+<input name="q11" value="3" type="radio"> Get them back, but in a nice way.<br>
+<input name="q11" value="4" type="radio"> Hurt, injure, or otherwise maim the bastard.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">12. What type of people would you MOST like to associate with?</a>
+<br><br>
+<input name="q12" value="1" type="radio"> Lawyers, Priests, and Politicians<br>
+<input name="q12" value="2" type="radio"> Judges and Merchants<br>
+<input name="q12" value="3" type="radio"> Minions and Servants<br>
+<input name="q12" value="4" type="radio"> Slaves<br>
+<input name="q12" value="5" type="radio"> The regulars at the local ale house<br>
+<input name="q12" value="6" type="radio"> Artists, Writers, and Poets<br>
+<input name="q12" value="7" type="radio"> Me, Myself, and I (none of the above)<br>
+
+</p><p></p><hr><p>
+
+<a class="question">13. What type of people would you LEAST like to associate with?</a>
+<br><br>
+<input name="q13" value="1" type="radio"> Lawyers, Priests, and Politicians<br>
+<input name="q13" value="2" type="radio"> Judges and Merchants<br>
+<input name="q13" value="3" type="radio"> Minions and Servants<br>
+<input name="q13" value="4" type="radio"> Slaves<br>
+<input name="q13" value="5" type="radio"> The regulars at the local ale house<br>
+<input name="q13" value="6" type="radio"> Artists, Writers, and Poets<br>
+<input name="q13" value="7" type="radio"> Me, Myself, and I (none of the above)<br>
+
+</p><p></p><hr><p>
+
+<a class="question">14. In a fight, what would be your FIRST choice of weapon?</a>
+<br><br>
+<input name="q14" value="1" type="radio"> Sword<br>
+<input name="q14" value="2" type="radio"> Knife<br>
+<input name="q14" value="3" type="radio"> Staff<br>
+<input name="q14" value="4" type="radio"> Bow<br>
+<input name="q14" value="5" type="radio"> Crossbow<br>
+<input name="q14" value="6" type="radio"> Sling<br>
+<input name="q14" value="7" type="radio"> Mace or Flail<br>
+<input name="q14" value="8" type="radio"> Club<br>
+<input name="q14" value="9" type="radio"> War Hammer<br>
+<input name="q14" value="10" type="radio"> Axe<br>
+<input name="q14" value="11" type="radio"> Polearm<br>
+<input name="q14" value="12" type="radio"> Magic<br>
+<input name="q14" value="13" type="radio"> Fists<br>
+<input name="q14" value="14" type="radio"> Running<br>
+
+</p><p></p><hr><p>
+
+<a class="question">15. In a fight, what would be your SECOND choice of weapon?</a>
+<br><br>
+<input name="q15" value="1" type="radio"> Sword<br>
+<input name="q15" value="2" type="radio"> Knife<br>
+<input name="q15" value="3" type="radio"> Staff<br>
+<input name="q15" value="4" type="radio"> Bow<br>
+<input name="q15" value="5" type="radio"> Crossbow<br>
+<input name="q15" value="6" type="radio"> Sling<br>
+<input name="q15" value="7" type="radio"> Mace or Flail<br>
+<input name="q15" value="8" type="radio"> Club<br>
+<input name="q15" value="9" type="radio"> War Hammer<br>
+<input name="q15" value="10" type="radio"> Axe<br>
+<input name="q15" value="11" type="radio"> Polearm<br>
+<input name="q15" value="12" type="radio"> Magic<br>
+<input name="q15" value="13" type="radio"> Fists<br>
+<input name="q15" value="14" type="radio"> Running<br>
+
+</p><p></p><hr><p>
+
+<a class="question">16. In a fight, what would be your LAST choice of weapon?</a>
+<br><br>
+<input name="q16" value="1" type="radio"> Sword<br>
+<input name="q16" value="2" type="radio"> Knife<br>
+<input name="q16" value="3" type="radio"> Staff<br>
+<input name="q16" value="4" type="radio"> Bow<br>
+<input name="q16" value="5" type="radio"> Crossbow<br>
+<input name="q16" value="6" type="radio"> Sling<br>
+<input name="q16" value="7" type="radio"> Mace or Flail<br>
+<input name="q16" value="8" type="radio"> Club<br>
+<input name="q16" value="9" type="radio"> War Hammer<br>
+<input name="q16" value="10" type="radio"> Axe<br>
+<input name="q16" value="11" type="radio"> Polearm<br>
+<input name="q16" value="12" type="radio"> Magic<br>
+<input name="q16" value="13" type="radio"> Fists<br>
+<input name="q16" value="14" type="radio"> Running<br>
+
+</p><p></p><hr><p>
+
+<a class="question">17. What would you be MOST likely to order at a tavern?</a>
+<br><br>
+<input name="q17" value="1" type="radio"> Wine and Cheese<br>
+<input name="q17" value="2" type="radio"> Bread and Ale<br>
+<input name="q17" value="3" type="radio"> Beef and Beer<br>
+<input name="q17" value="4" type="radio"> Soup and Salad<br>
+
+</p><p></p><hr><p>
+
+<a class="question">18. What would you be LEAST likely to order at a tavern?</a>
+<br><br>
+<input name="q18" value="1" type="radio"> Wine and Cheese<br>
+<input name="q18" value="2" type="radio"> Bread and Ale<br>
+<input name="q18" value="3" type="radio"> Beef and Beer<br>
+<input name="q18" value="4" type="radio"> Soup and Salad<br>
+
+</p><p></p><hr><p>
+
+<a class="question">19. While walking past an alley, you notice two thugs beating up a merchant, obviously intent on robbery.  What do you do?</a>
+<br><br>
+<input name="q19" value="1" type="radio"> Kill them all and loot the bodies.<br>
+<input name="q19" value="2" type="radio"> Call the watch and let them handle it.<br>
+<input name="q19" value="3" type="radio"> Smite them!<br>
+<input name="q19" value="4" type="radio"> Ignore them.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">20. Which of the following would you MOST like to have as a pet or companion?</a>
+<br><br>
+<input name="q20" value="1" type="radio"> Cat<br>
+<input name="q20" value="2" type="radio"> Dog<br>
+<input name="q20" value="3" type="radio"> Wolf<br>
+<input name="q20" value="4" type="radio"> Horse<br>
+<input name="q20" value="5" type="radio"> Imp<br>
+<input name="q20" value="6" type="radio"> Pixie<br>
+<input name="q20" value="7" type="radio"> Rat<br>
+<input name="q20" value="8" type="radio"> Owl<br>
+<input name="q20" value="9" type="radio"> Raven<br>
+<input name="q20" value="10" type="radio"> None of the Above<br>
+
+</p><p></p><hr><p>
+
+<a class="question">21. Which of the following would you ALSO like to have as a pet or companion?</a>
+<br><br>
+<input name="q21" value="1" type="radio"> Cat<br>
+<input name="q21" value="2" type="radio"> Dog<br>
+<input name="q21" value="3" type="radio"> Wolf<br>
+<input name="q21" value="4" type="radio"> Horse<br>
+<input name="q21" value="5" type="radio"> Imp<br>
+<input name="q21" value="6" type="radio"> Pixie<br>
+<input name="q21" value="7" type="radio"> Rat<br>
+<input name="q21" value="8" type="radio"> Owl<br>
+<input name="q21" value="9" type="radio"> Raven<br>
+<input name="q21" value="10" type="radio"> None of the Above<br>
+
+</p><p></p><hr><p>
+
+<a class="question">22. Which of the following would you LEAST like to have as a pet or companion?</a>
+<br><br>
+<input name="q22" value="1" type="radio"> Cat<br>
+<input name="q22" value="2" type="radio"> Dog<br>
+<input name="q22" value="3" type="radio"> Wolf<br>
+<input name="q22" value="4" type="radio"> Horse<br>
+<input name="q22" value="5" type="radio"> Imp<br>
+<input name="q22" value="6" type="radio"> Pixie<br>
+<input name="q22" value="7" type="radio"> Rat<br>
+<input name="q22" value="8" type="radio"> Owl<br>
+<input name="q22" value="9" type="radio"> Raven<br>
+<input name="q22" value="10" type="radio"> None of the Above<br>
+
+</p><p></p><hr><p>
+
+<a class="question">23. Which of the following would you MOST like to study at a university?</a>
+<br><br>
+<input name="q23" value="1" type="radio"> Philosophy and Religion<br>
+<input name="q23" value="2" type="radio"> Thaumaturgy <i>(study of magic)</i><br>
+<input name="q23" value="3" type="radio"> Biology<br>
+<input name="q23" value="4" type="radio"> Swordsmanship<br>
+<input name="q23" value="5" type="radio"> Music<br>
+<input name="q23" value="6" type="radio"> Cooking<br>
+<input name="q23" value="7" type="radio"> Geology<br>
+<input name="q23" value="8" type="radio"> Engineering<br>
+<input name="q23" value="9" type="radio"> The Treasury.  With a loot sack.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">24. Which of the following would you LEAST like to study at a university?</a>
+<br><br>
+<input name="q24" value="1" type="radio"> Philosophy and Religion<br>
+<input name="q24" value="2" type="radio"> Thaumaturgy <i>(study of magic)</i><br>
+<input name="q24" value="3" type="radio"> Biology<br>
+<input name="q24" value="4" type="radio"> Swordsmanship<br>
+<input name="q24" value="5" type="radio"> Music<br>
+<input name="q24" value="6" type="radio"> Cooking<br>
+<input name="q24" value="7" type="radio"> Geology<br>
+<input name="q24" value="8" type="radio"> Engineering<br>
+<input name="q24" value="9" type="radio"> The Treasury.  With a loot sack.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">25. Pick a FAVORITE color from the following list:</a>
+<br><br>
+<input name="q25" value="1" type="radio"> Red<br>
+<input name="q25" value="2" type="radio"> Green<br>
+<input name="q25" value="3" type="radio"> Blue<br>
+<input name="q25" value="4" type="radio"> White<br>
+<input name="q25" value="5" type="radio"> Black<br>
+<input name="q25" value="6" type="radio"> Gray<br>
+<input name="q25" value="7" type="radio"> Yellow<br>
+<input name="q25" value="8" type="radio"> Brown<br>
+
+</p><p></p><hr><p>
+
+<a class="question">26. Pick a LEAST FAVORITE color from the following list:</a>
+<br><br>
+<input name="q26" value="1" type="radio"> Red<br>
+<input name="q26" value="2" type="radio"> Green<br>
+<input name="q26" value="3" type="radio"> Blue<br>
+<input name="q26" value="4" type="radio"> White<br>
+<input name="q26" value="5" type="radio"> Black<br>
+<input name="q26" value="6" type="radio"> Gray<br>
+<input name="q26" value="7" type="radio"> Yellow<br>
+<input name="q26" value="8" type="radio"> Brown<br>
+
+</p><p></p><hr><p>
+
+<a class="question">27. Pick a FAVORITE type of outfit to wear:</a>
+<br><br>
+<input name="q27" value="1" type="radio"> Snazzy business attire<br>
+<input name="q27" value="2" type="radio"> Utilitarian travelling clothes<br>
+<input name="q27" value="3" type="radio"> Three words: Shining Plate Mail!<br>
+<input name="q27" value="4" type="radio"> Rough work clothes<br>
+<input name="q27" value="5" type="radio"> Heavy robes<br>
+
+</p><p></p><hr><p>
+
+<a class="question">28. Pick a LEAST FAVORITE type of outfit to wear:</a>
+<br><br>
+<input name="q28" value="1" type="radio"> Snazzy business attire<br>
+<input name="q28" value="2" type="radio"> Utilitarian travelling clothes<br>
+<input name="q28" value="3" type="radio"> Three words: Shining Plate Mail!<br>
+<input name="q28" value="4" type="radio"> Rough work clothes<br>
+<input name="q28" value="5" type="radio"> Heavy robes<br>
+
+</p><p></p><hr><p>
+
+<a class="question">29. A group of adventurers heads off into the
+world, intent on making a name for themselves. As a member of this
+group, what is your role in the party?</a>
+<br><br>
+<input name="q29" value="1" type="radio"> The Leader.  I tell everybody what to do and when to do it.<br>
+<input name="q29" value="2" type="radio"> Second in Command. I have
+leadership skills, but I hate making the big decisions. I'll handle
+arranging what must be done, if somebody else tells me what that is.<br>
+<input name="q29" value="3" type="radio"> The Brains of the Outfit. I'm
+not a leader, but I'm great at ideas. I'll toss them out, and let the
+rest of the party figure out how to actually implement them.<br>
+<input name="q29" value="4" type="radio"> The Follower (aka The Grunt).
+I'm not a leader, and I'm not an idea person. Point me in the right
+direction and tell me what to do, thank you.<br>
+<input name="q29" value="5" type="radio"> Moral Compass. I may not be
+the leader, but I will definately speak up as to what the party should
+or shouldn't be doing, based on my own moral code. This may or may not
+be annoying.. but probably is.<br>
+<input name="q29" value="6" type="radio"> The Lone Wolf.  While I may be a member of the party, I will always stick to myself and be distant from the other members.<br>
+<input name="q29" value="7" type="radio"> The Opportunist (aka The
+Backstabber). I'll play along up until the point where it's time to
+divide the loot. That's when the Knives of Betrayal come into play..<br>
+
+</p><p></p><hr><p>
+
+<a class="question">30. The group of adventurers you're with breaks open a cave filled with treasure.  What catches your eye first?</a>
+<br><br>
+<input name="q30" value="1" type="radio"> The stacks and piles of gold and jewels.<br>
+<input name="q30" value="2" type="radio"> The strangely glowing sword mounted on the wall.<br>
+<input name="q30" value="3" type="radio"> The many-faceted jewel that feels somewhat cold to the touch.<br>
+<input name="q30" value="4" type="radio"> The ancient shrine to some long-forgotten deity, recessed into the wall.<br>
+<input name="q30" value="5" type="radio"> The jewel-encrusted harp leaning against the wall.<br>
+<input name="q30" value="6" type="radio"> The hand-carved wooden statue in the corner.<br>
+<input name="q30" value="7" type="radio"> The dusty tome on a pedestal, with an odd-looking cover.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">31. Now it's time to divide up the loot.  What do you do?</a>
+<br><br>
+<input name="q31" value="1" type="radio"> Stick knives in the rest of the party and take it all.<br>
+<input name="q31" value="2" type="radio"> Everyone shares equally, no more and no less than anyone else.<br>
+<input name="q31" value="3" type="radio"> Most of the profits go to the
+family of the poor henchman who disarmed the traps at the cost of his
+life. Or, at least, to buy another roll of duct tape.<br>
+<input name="q31" value="4" type="radio"> Whatever is decided on, I'm tithing most of my share.<br>
+<input name="q31" value="5" type="radio"> I'll just take this one
+little piece and leave the rest for the party. I won't mention that it
+happens to be the most valuable item.<br>
+<input name="q31" value="6" type="radio"> Who cares?  I'm spending my reward on ale and whores, so I'll take enough to keep me busy until the next adventure.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">32. Oops.  Seems there was a Great Red Wyrm waiting for you when you left the cave.  Think fast!</a>
+<br><br>
+<input name="q32" value="1" type="radio"> Run.  Really fast.  Thinking can wait.<br>
+<input name="q32" value="2" type="radio"> I only have to run faster than the slowest party member..<br>
+<input name="q32" value="3" type="radio"> Draw sword.  Roll initiative.<br>
+<input name="q32" value="4" type="radio"> Fear my Magic Missile!<br>
+<input name="q32" value="5" type="radio"> Pray.  Very hard.  And pray that it works.<br>
+<input name="q32" value="6" type="radio"> I know I have a scroll of Slay Dragon somewhere in my backpack..<br>
+<input name="q32" value="7" type="radio"> Look for the nearest shadowy corner and stay there.<br>
+<input name="q32" value="8" type="radio"> May (insert name of deity here) guide my blade!<br>
+<input name="q32" value="9" type="radio"> Aim my arrow/bolt for the eyes and cross my fingers.<br>
+
+</p><p></p><hr><p>
+
+<a class="question">33. Seems you're a bit short on ready gold, and you need some food.  What do you do?</a>
+<br><br>
+<input name="q33" value="1" type="radio"> Sing for my supper at the nearest tavern or noble's house.<br>
+<input name="q33" value="2" type="radio"> Slit the purse (or throat) of some wealthy-looking individual.<br>
+<input name="q33" value="3" type="radio"> Go to the nearest temple and ask for charity.<br>
+<input name="q33" value="4" type="radio"> Put on a charlatan's show and do some simple stage magic.<br>
+<input name="q33" value="5" type="radio"> Sell that magic item you've been holding on to "for a rainy day".<br>
+<input name="q33" value="6" type="radio"> Hire yourself out as a bodyguard.<br>
+<input name="q33" value="7" type="radio"> Ask the local constable if there's any wrongs that need righting.<br>
+<input name="q33" value="8" type="radio"> Go into the nearest forest and find your own.<br>
+
+</p><p></p><hr><p>
+
+<a class="question"><u>Optional Stuff:</u></a><br>
+<i>Please note that all of these are ENABLED by default!</i>
+<br><br>
+<input name="detailed" checked="checked" type="checkbox"> Detailed Results<br>
+<input name="html" checked="checked" type="checkbox"> HTML Code (for webpages/journals)<br>
+<input name="deity" checked="checked" type="checkbox"> Associate character with a Forgotten Realms deity - Note that this
+will <b>automatically</b> be turned on if your character ends up as a Cleric, Paladin, Ranger, Monk, or Druid!<br>
+
+</p><p></p><hr><p>
+
+</p><center>
+<a class="button"><input value="What D&amp;D Character Am I?" onclick="process();" type="button"></a><br><br>
+<i>Before clicking, make sure JavaScript is enabled, and that all pop-up window-managers are disabled!</i>
+
+</center>
+
+</form>
+
+</td></tr></tbody></table><br>
+
+</center>
+
+</body></html>
